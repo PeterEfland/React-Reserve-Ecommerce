@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import axios from "axios";
 import ProductList from "../components/Index/ProductList";
@@ -16,4 +17,10 @@ Home.getInitialProps = async () => {
   // note: this object will be merged with existing props
 };
 
+=======
+function Home() {
+  return <>home</>;
+}
+
+>>>>>>> origin/master
 export default Home;

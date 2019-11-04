@@ -1,4 +1,5 @@
 import App from "next/app";
+<<<<<<< HEAD
 import Layout from "../components/_App/Layout";
 
 class MyApp extends App {
@@ -19,6 +20,13 @@ class MyApp extends App {
         <Component {...pageProps} />
       </Layout>
     );
+=======
+
+class MyApp extends App {
+  render() {
+    const { Component } = this.props;
+    return <Component />;
+>>>>>>> origin/master
   }
 }
 

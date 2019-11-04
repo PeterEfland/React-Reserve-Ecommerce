@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Menu, Container, Image, Icon } from "semantic-ui-react";
 import Link from "next/link";
 import Router, { useRouter } from "next/router";
@@ -73,6 +74,10 @@ function Header() {
       </Container>
     </Menu>
   );
+=======
+function Header() {
+  return <>Header</>;
+>>>>>>> origin/master
 }
 
 export default Header;

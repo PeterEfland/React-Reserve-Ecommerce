@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Card } from "semantic-ui-react";
 
 function ProductList({ products }) {
@@ -20,6 +21,10 @@ function ProductList({ products }) {
       items={mapProductsToItems(products)}
     />
   );
+=======
+function ProductList() {
+  return <>ProductList</>;
+>>>>>>> origin/master
 }
 
 export default ProductList;
