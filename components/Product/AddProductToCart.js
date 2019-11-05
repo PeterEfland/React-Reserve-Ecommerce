@@ -7,10 +7,10 @@ function AddProductToCart() {
       min="1" 
       placeholder="Quantity" 
       value={1}
-      action={{ 
+      action={{
         color: 'orange', 
         content: 'Add to Cart', 
-        icon: 'plus cart'
+        icon: 'plus cart',
       }} 
     />)
 }
