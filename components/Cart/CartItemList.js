@@ -4,7 +4,7 @@ function CartItemList() {
   const user = false;
 
   return (
-    <Segment secondary color='teal' inverted textAlign='center' placehodler>
+    <Segment secondary color='teal' inverted textAlign='center' placeholder>
       <Header icon>
         <Icon name='shopping basket' />
         No Products in your cart. Add some!
