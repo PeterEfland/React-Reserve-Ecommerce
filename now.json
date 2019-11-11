@@ -1,5 +1,11 @@
 {
-  "name": "reactreserve",
-  "alias": "<insert-your-alias>.now.sh",
-  "version": 1
+  "name": "react-reserve-pe",
+  "alias": "react-reserve-pe.now.sh",
+  "version": 2,
+  "env": {
+    "MONGO_SRV": "mongodb+srv://pete:22512516@reactreserve-1jtue.mongodb.net/test?retryWrites=true&w=majority",
+    "JWT_SECRET": "ThisIsTopSecret",
+    "CLOUDINARY_URL": "https://api.cloudinary.com/v1_1/petereflandcloudinary/image/upload",
+    "STRIPE_SECRET_KEY": "sk_test_qdEmHySKlnW4IuanErYSTSO300uPzlqmlO"
+  }
 }
