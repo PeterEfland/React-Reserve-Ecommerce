@@ -2,10 +2,5 @@ node_modules
 .next
 
 dist
-<<<<<<< HEAD
 next.config.*
 now.json
-=======
-# next.config.*
-# now.json
->>>>>>> origin/master
